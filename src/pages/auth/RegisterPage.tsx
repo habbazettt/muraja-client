@@ -70,7 +70,7 @@ export default function RegisterPage() {
             if (values.password === "newuser2025") {
                 navigate("/auth/reset-password/newuser")
             } else {
-                navigate("/dashboard/user")
+                navigate("/auth/login")
             }
         } catch (error: unknown) {
             const message = error instanceof Error ? error.message : "Terjadi kesalahan tidak diketahui"
