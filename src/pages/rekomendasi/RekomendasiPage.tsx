@@ -505,7 +505,7 @@ export default function RekomendasiPage() {
                                         <Button
                                             onClick={() => {
                                                 setShowResultModal(false);
-                                                navigate("/dashboard/user");
+                                                navigate("/dashboard/user/murojaah-harian");
                                             }}
                                             className="flex-1 h-12 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl font-semibold shadow-lg"
                                         >
