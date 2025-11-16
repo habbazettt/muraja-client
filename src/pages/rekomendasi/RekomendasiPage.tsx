@@ -55,7 +55,7 @@ export default function RekomendasiPage() {
             return;
         } else {
             if (user.is_data_murojaah_filled === false) {
-                navigate("/dashboard/data-murojaah/add");
+                navigate("/dashboard/user/data-murojaah/add");
                 return
             }
         }
